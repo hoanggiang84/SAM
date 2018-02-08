@@ -25,20 +25,23 @@ namespace SAM
         {
             InitializeComponent();
             tbNumber.MouseWheel += tbNumber_MouseWheel;
+            tbNumber.PreviewMouseWheel += tbNumber_PreviewMouseWheel;
+        }
+
+        void tbNumber_PreviewMouseWheel(object sender, MouseWheelEventArgs e)
+        {
+            e.Handled = false;
         }
 
         void tbNumber_MouseWheel(object sender, MouseWheelEventArgs e)
         {
             var index = tbNumber.SelectionStart;
-            var dVal = Math.Sign(e.Delta);
-            var newNum = NumberScroll.ScrollUp(tbNumber.Text, index);
+            var scrollDir = Math.Sign(e.Delta);
+            var newNum = NumberScroll.Scroll(tbNumber.Text, index, (ScrollDirection)scrollDir);
             tbNumber.Text = newNum.ToString();
             tbNumber.SelectionStart = index;
-            tbIndex.Text = dVal.ToString();
+            tbIndex.Text = scrollDir.ToString();
         }
 
-        private void tbNumber_KeyUp(object sender, KeyEventArgs e)
-        {
-        }
     }
 }
