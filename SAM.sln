@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAM", "SAM\SAM.csproj", "{A16A09FD-2441-42CD-A220-939FA711A7DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAM.Library", "SAM.Library\SAM.Library.csproj", "{BC28C1B5-CB91-4483-8528-E2EE5D22D644}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAM.UnitTests", "SAM.UnitTests\SAM.UnitTests.csproj", "{E8F57AD6-D497-4842-BEE7-7837E7F339E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A16A09FD-2441-42CD-A220-939FA711A7DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A16A09FD-2441-42CD-A220-939FA711A7DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A16A09FD-2441-42CD-A220-939FA711A7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A16A09FD-2441-42CD-A220-939FA711A7DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC28C1B5-CB91-4483-8528-E2EE5D22D644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC28C1B5-CB91-4483-8528-E2EE5D22D644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC28C1B5-CB91-4483-8528-E2EE5D22D644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC28C1B5-CB91-4483-8528-E2EE5D22D644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8F57AD6-D497-4842-BEE7-7837E7F339E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8F57AD6-D497-4842-BEE7-7837E7F339E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8F57AD6-D497-4842-BEE7-7837E7F339E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8F57AD6-D497-4842-BEE7-7837E7F339E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
